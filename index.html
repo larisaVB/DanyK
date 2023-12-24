@@ -1,0 +1,207 @@
+<html>
+
+ <head>
+
+  <title>мой прект</title>
+
+  <style>
+
+body {
+
+font: 15pt Arial, Helvetica, sans-serif; /* Шрифт теста */
+
+background: hsl(253, 96%, 44%)(55, 65%, 97%); /* Цвет фона */
+
+
+}
+
+h2 {
+
+font-size: 42px; /* Размер шрифта в заголовке */
+
+color: #121213 ; /* Цвет заголовка */
+
+margin-top: 0; /* Отступ сверху */
+
+
+}
+
+.container {
+
+width: 1500px; /* Ширина слоя */
+height: 700px;
+
+margin: 0 auto; /* Выравнивнить весь блок по центру */
+
+background: #f8a601; /* Цвет фона левой колонки */
+
+}
+
+
+
+.sidebar {
+
+margin-top: 15px;
+
+width: 130px; /* Ширина блока */
+
+padding:  10px; /* Отступы внутри левого блока */
+
+float: left; /* Обтекание блока по правому краю */
+color: #0c0202; /* Цвет текста */
+
+}
+
+.content {
+
+margin-left: 130px; /* Отступ слева */
+
+padding: 40px; /* Отступы внутри правого блока */
+
+background-image: url(loadinganimation.gif);
+     background-size: 80% 80%;
+    
+
+
+width: 1200px; /* Ширина слоя */
+height: 550px;
+}
+
+
+
+.footer {
+
+  background: #f8a601; /* Цвет фона левой колонки */
+
+
+ /* Цвет фона нижнего блока-подвала */
+
+color: #0a0101; /* Цвет текста подвала */
+
+padding: 5px; /* Отступы внутри блока */
+
+clear: left; /* Отменяем действие float */
+
+}
+   .markers li::marker {
+	color: hsl(258, 100%, 50%);
+	font-size: 18px;
+    list-style-type:circle;
+}
+
+  .btn {
+      display: inline-block; /* Строчно-блочный элемент */
+      background: hsl(160, 12%, 90%); /* Серый цвет фона */
+      color: #222224 ; /* Белый цвет текста */
+      padding: 0.5rem 0.5rem; /* Поля вокруг текста */
+      text-decoration: none; /* Убираем подчёркивание */
+      border-radius: 3px; /* Скругляем уголки */
+      border: 2px solid rgb(136, 85, 9); 
+      font-size: 13px;
+     }
+     
+     .animation-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #042548;
+  height: 150px;
+}
+.bg-ex-stars {
+  background: url("dr.gif"); /* Путь к картинке */
+  background-position: 0 0;
+  background-repeat: repeat;
+  animation: animated-bg 60s linear infinite;
+  width: 100%;
+  height: 150%;
+}
+@keyframes animated-bg {
+  from { background-position: 0 0; }
+  to { background-position: 0 1000px; }
+}
+.wrapper {
+        position: relative;
+        width: 112px;
+        height: 130px;
+        margin-bottom: 3px;
+    }
+    #dd {
+        position: absolute;
+        height: 130px !important;
+    }
+    </style>
+  
+   </head>
+  
+   <body>
+      <script>
+        var width=112,r=1;
+        
+        setTimeout('ff()', 100);
+        function ff() {
+        d=document.getElementById('dd');
+        
+        if(d.width>2&&r==1){
+            d.style.left=(parseInt(d.style.left)+1)+"px";
+            d.width=d.width-2;
+        }else if(d.width<width&&r==0){
+            d.style.left=(parseInt(d.style.left)-1)+"px";
+            d.width=d.width+2;
+        }else {r=(r==1?0:1);}
+        setTimeout('ff()', 100);
+        }
+        
+        </script>
+        
+      
+      <div class="animation-bg">
+         <div class="bg-ex-stars"></div>
+       </div>
+
+    <div class="container">
+
+        
+       
+        
+           <div class="header">   </div>
+         
+           <div class="sidebar">
+
+         <br><br> <a href="plan.html"  class="btn" font size="3">Описание</a><br><br>
+
+     <a href="zn.html"  class="btn">Принцип работы</a><br><br>
+
+     <a href="um.html"  class="btn">Преимущества</a><br><br>
+    
+
+  
+     <div class="wrapper">
+      <p><a href="SH2.html" ><img src="код2.1.jpg" style="left: 0;" id="dd" width="100" height="100" align=left></a></p><br>
+       
+      </div> 
+
+   </div>
+
+   <div class="content">
+
+      <br><br><h2><b>Оптический компьютер</b></h2>
+
+         <ul class="markers">
+<UL> 
+      <LI> Это устройство (пока скорее гипотетическое), которое в качестве единицы (бита) информации использует фотон. В обычном компьютере в качестве бита информации используется электрон, а если точнее ― заряд электрона: если через контакт протек некоторый минимальный заряд, то это единица, а если протек заряд меньше порогового, то ноль. Заменяем электрон на фотон, заряд на интенсивность электромагнитного поля, получается так называемый классический оптический компьютер.? </LI><br><br>
+
+      <LI>Полезность любой технологии измеряется ее актуальностью, поэтому разработка оптических компьютеров стала одной из популярных тем сегодня. Техники и разработчики всего мира пытаются достичь совершенства в нано-технологиях, поэтому неустанно проводят различные исследования. Оптические компьютеры - одна из самых популярных тем. Все преимущества позволяют удостовериться в их необходимости уже сегодня</LI><br><br>
+   
+        </UL>
+
+       
+     
+</div>
+
+<div class="footer">&copy;  Колобяшин Даниил, Можайский техникум</div>
+
+</div>
+
+</body>
+
+</html>
